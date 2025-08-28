@@ -1,0 +1,26 @@
+git add (nome do arquivo ou . para selecionar todos)=seleciona os arquivos que vão selecionado para o proximo passo
+
+git commit -m "comentario"= envia os arquivos selecionado para o repositorio local que foi clonado
+
+git status=verifica como estão os arquivos, se teve algum que foi alterado e nao foi comitado
+
+git log= mostra o historico e os id de commit
+
+M: A letra M representa o estado Modified, do português modificado. Isso significa que o arquivo já existia no repositório, mas que recebeu alguma modificação que ainda não foi registrada no Git.
+
+U: A letra U representa o estado Untracked, do português não rastreado. Isso significa que o arquivo ainda não existia no repositório e que ainda não teve seu registro (commit) feito no Git.
+
+git remote=lista os repositorios remotos
+
+git push origin main = Envia os arquivos que foram alterados para o repositorio remoto(gitHub)
+
+git pull origin main = baixa para o repositorio local o que está no repositorio remoto
+
+em caso de conflito é preciso descidir qual parte do codigo irá manter-se
+
+como desfazer um commit: digita git log para aparecer o id do commit
+git revert id-do-commit
+
+git reset --hard id-commit-anterior
+
+git commit --amend -m "Assim podemos alterar o titulo do commit"
