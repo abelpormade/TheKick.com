@@ -27,4 +27,4 @@ git commit --amend -m "Assim podemos alterar o titulo do commit"
 
 .gitignore = é um arquivo que pode ser criado e dentro e dentro dele escrito o nome dos arquivos que serão ignorados pelos comandos no terminal
 
-teste
+teste vaui
