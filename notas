@@ -27,4 +27,6 @@ git commit --amend -m "Assim podemos alterar o titulo do commit"
 
 .gitignore = é um arquivo que pode ser criado e dentro e dentro dele escrito o nome dos arquivos que serão ignorados pelos comandos no terminal
 
-teste vaui
+teste
+
+compatilhar trechos de codigo com gist = vai em <New Gist> e cola os trechos que vc quer copiar, logo após o gist está pronto para ser compatilhando copiando a url do navegador
