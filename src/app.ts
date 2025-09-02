@@ -22,6 +22,10 @@ app.get('/', (req: Request, res: Response) => {
   res.send('Olá, TheKick.com!');
 });
 
+app.get('/login', (req: Request, res: Response) => {
+  res.send('Faça seu login');
+});
+
 app.listen(PORT, () => {
   console.log(`Servidor rodando em http://localhost:${PORT}`);
 });
