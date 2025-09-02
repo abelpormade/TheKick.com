@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Krona+One&display=swap');
+
+:root{
+    --cor--fundo: rgba(119, 114, 194, 0.5);
+    --cor--footer: #E73FA2;
+    --cor--fundo--menu: #7772C2;
+
+    --cor--pesquisar: #f1f1f1; 
+    --hover--menu: rgba(45,59,152,0.5);
+}
+
+.logoimagem{
+    width: 100px;
+    margin-left: -30px;
+}
+
+.logoimagem:hover{
+   transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
+.pesquisar {
+    width: 500px;
+    height: 40px;
+    border-radius: 20px;
+    background: var(--cor--pesquisar);
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+
+}
+
+.pesquisar__input {
+    border: none;
+    outline: none;
+    font-size: 16px;
+    background: transparent;
+}
+
+.lupa__pesquisa{
+    margin: 210px;
+    width: 35px;
+}
+
+.menu a{
+    margin-left: 5px;
+    font-size: 24px;
+    padding: 15px 20px 15px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: var(--cor--footer);
+    
+}
+.menu a:hover{
+    background-color: var(--hover--menu);
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
+
+.menu{
+    margin-left: 70px;
+    background-color: var(--cor--fundo--menu);
+    height: 90px;
+    width: 1800px;
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    border-radius: 10px ;
+    align-items: center;
+}
+
+
+
+.avatarimagem{
+    width: 75px;
+
+}
+
+.avatarimagem:hover{
+    transform: scale(1.2);
+    transition: transform 0.2s;
+}
+
+
+body{
+    background-color: var(--cor--fundo);
+    margin: 80px;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 700;
+}
+
+.imagens_usuarios{
+    width: 110px;
+
+}
+
+.footer{
+    display: flex;
+    gap: 10px;
+    width: 1400px;
+    background-color: var(--cor--footer);
+    border-radius: 10px;
+    margin: auto;
+}
+
+.footer__conteudo{
+    margin-left: 47px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--cor--footer);
+    font-size: 20px;
+    margin-top: 11px;
+}
+
+.footer p{
+    background-color: var(--cor--fundo--menu); 
+    padding: 8px 30px;      
+    border-radius: 10px;   
+    text-decoration: none;
+}
+
+a, p{
+    -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #000000;
+}
+
