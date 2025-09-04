@@ -16,16 +16,15 @@ npm start*/
 import express, { Request, Response } from 'express';
 
 const app = express();
-const PORT = 3000;
+
 
 app.get('/', (req: Request, res: Response) => {
-  res.send('Olá, TheKick.com!');
+  res.send('Pagina de login');
 });
 
 app.get('/login', (req: Request, res: Response) => {
   res.send('Faça seu login');
 });
 
-app.listen(PORT, () => {
-  console.log(`Servidor rodando em http://localhost:${PORT}`);
-});
+
+export default app;
