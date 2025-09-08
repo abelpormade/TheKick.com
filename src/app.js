@@ -6,7 +6,11 @@ app.use(express.json());
 const path = require('path');
 
 // Middleware para servir arquivos da pasta "public", faz com que tudo dentro da pasta public seja acessivel ao navegador
-//app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(path.join(__dirname, 'public')));
+app.get('/',(req,res)=>{
+  res.send("pagina de inicio")
+})
+
 
 app.get('/inicio', (req, res) => {
   res.sendFile(path.join(__dirname,'views', 'thekick.html'));
