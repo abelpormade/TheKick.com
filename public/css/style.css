@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Krona+One&display=swap');
 
 :root{
-    --cor--fundo: rgba(119, 114, 194, 0.5);
-    --cor--footer: #E73FA2;
+    --cor--fundo: rgb(191, 137, 217);
+    --cor--footer: #f694cd;
     --cor--fundo--menu: #7772C2;
 
     --cor--pesquisar: #f1f1f1; 
