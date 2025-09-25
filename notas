@@ -30,3 +30,12 @@ git commit --amend -m "Assim podemos alterar o titulo do commit"
 teste
 
 compatilhar trechos de codigo com gist = vai em <New Gist> e cola os trechos que vc quer copiar, logo após o gist está pronto para ser compatilhando copiando a url do navegador
+git stash = guarda as alterações que vc fez em um local temporario
+git stash pop = resgata as alterações que vc tinha guardado
+git stash list = lista os arquivos que vc guardou
+git stash clear = apaga todos os arquivos que vc tinha guardado
+git stash drop = apaga o ultimo arquivo que vc tinha guardado
+git checkout nome-da-branch = troca para a branch que vc quer
+git checkout -b nome-da-branch = cria uma nova branch e ja troca para ela
+git branch = lista as branches que existem no repositorio
+git merge nome-da-branch = junta a branch que vc está com a branch que vc quer
